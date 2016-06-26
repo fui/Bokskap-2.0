@@ -9,31 +9,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <h1>TERMVAKTPORTALEN</h1>
-    </header>
+<header>
+    <h1>TERMVAKTPORTALEN</h1>
+</header>
 
-    <div id="wrapper">
-        <input id="acc_field" type="text">
+<div id="wrapper">
+    <div>
+        <input id="acc_field"  type="text">
 
         </input>
-        <i class="fa fa-user fa-3x logo" aria-hidden="true"></i>
-
+        <i id="usersymbol" class="fa fa-user fa-3x logo" aria-hidden="true"></i>
+    </div>
+    <div id="pwdinput">
         <input id="pwd_field" type="text">
 
         </input>
-        <i class="fa fa-lock fa-3x logo" aria-hidden="true"></i>
-
-        <div id="cancel">
-            Avbryt
-        </div>
-
-        <div id="submit">
-            Godkjenn
-        </div>
+        <i id="pwdsymbol" class="fa fa-lock fa-3x logo" aria-hidden="true"></i>
 
     </div>
+    <div id="cancel">
+        AVBRYT
+    </div>
 
-    <script src="js/innlogging_termvakt.js"></script>
+    <div id="submit">
+        REGISTRER
+    </div>
+
+</div>
+
+<script src="js/innlogging_termvakt.js"></script>
 </body>
 </html>
