@@ -17,10 +17,10 @@ body{
     text-align: center;
 }
 
-#acc_field, #pwd_field{
+form input {
     width:80%;
-    height:100%;
     background-color: #EBEBEB;
+    height: 50px;
     font-size:20px;
     text-align: center;
     color:black;
@@ -35,25 +35,32 @@ body{
 }
 
 #pwdinput {
-    margin-top: 20px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 0;
 }
 
-.logo{
+form .fa {
+    vertical-align: middle;
     background-color:deepskyblue;
     font-size: 1.5em;
     width:15%;
     color:white;
-    margin-left: -5px;
+    line-height: 50px;
 }
 
-#wrapper{
+#pwdinput {
+    margin-top: 20px;
+}
+
+form {
     display: inline-block;
     margin-top: 8%;
     height:12%;
     width:50vw;
 }
 
-#cancel, #submit{
+form button {
     position: absolute;
     margin:10% auto 0 auto;
     width:20%;
@@ -61,9 +68,11 @@ body{
     padding-bottom:2%;
     color:white;
     font-size:20px;
+    display: block;
+    border-width: 0;
 }
 
-#cancel:hover, #submit:hover{
+button:hover{
     cursor:pointer;
 }
 
