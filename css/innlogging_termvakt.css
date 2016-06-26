@@ -25,19 +25,14 @@ form input {
     text-align: center;
     color:black;
     border-style:none;
-    padding-bottom:13px;
-    padding-top:13px;
     vertical-align: middle;
+    line-height: 50px;
+    padding: 0;
+    margin-top: 20px;
 }
 
 #usersymbol, #pwdsymbol {
     vertical-align: middle;
-}
-
-#pwdinput {
-    line-height: 50px;
-    vertical-align: middle;
-    padding: 0;
 }
 
 form .fa {
@@ -47,10 +42,6 @@ form .fa {
     width:15%;
     color:white;
     line-height: 50px;
-}
-
-#pwdinput {
-    margin-top: 20px;
 }
 
 form {
