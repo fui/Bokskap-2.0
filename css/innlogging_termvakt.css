@@ -27,7 +27,15 @@ body{
     border-style:none;
     padding-bottom:13px;
     padding-top:13px;
+    vertical-align: middle;
+}
 
+#usersymbol, #pwdsymbol {
+    vertical-align: middle;
+}
+
+#pwdinput {
+    margin-top: 20px;
 }
 
 .logo{
@@ -35,10 +43,6 @@ body{
     font-size: 1.5em;
     width:15%;
     color:white;
-}
-
-#pwd_field{
-    margin-top: 3%;
 }
 
 #wrapper{
