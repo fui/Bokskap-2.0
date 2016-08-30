@@ -1,0 +1,79 @@
+header{
+    text-align:center;
+    width:100%;
+    height:20%;
+    background-color:#1F293D;
+    color:white;
+    margin:0px;
+    padding:1%;
+}
+
+header h1{
+    margin:0px;
+}
+
+body{
+    margin:0px;
+    text-align: center;
+}
+
+form input {
+    background-color: #EBEBEB;
+    width: 100%;
+    height: 50px;
+    font-size:20px;
+    text-align: center;
+    color:black;
+    border-style:none;
+    line-height: 50px;
+    vertical-align: middle;
+    padding:0;
+}
+
+form .fa {
+    vertical-align: middle;
+    padding: 0;
+    background-color:deepskyblue;
+    font-size: 1.5em;
+    width: 100px;
+    color:white;
+    margin-left: -5px;
+    line-height: 50px;
+}
+
+form div {
+    display: flex;
+    margin-top: 20px;
+}
+
+form {
+    display: inline-block;
+    margin-top: 8%;
+    height:12%;
+    width:50vw;
+}
+
+form button {
+    position: absolute;
+    margin:10% auto 0 auto;
+    width:20%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color:white;
+    font-size:20px;
+    display: block;
+    border-width: 0;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+#cancel{
+    background-color: #DC3A7D;
+}
+
+#submit{
+    left:55%;
+    background-color: #67B86A;
+}
